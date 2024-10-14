@@ -43,8 +43,8 @@ class RickAndMortyView {
   renderPagination(page) {
     this.app.insertAdjacentHTML('beforeend', `
       <div class="pagination">
-        <button id="prevPage" ${page === 1 ? 'disabled' : ''}>Previous</button>
-        <button id="nextPage">Next</button>
+        <button id="prevPage" ${page === 1 ? 'disabled' : ''}>Anterior</button>
+        <button id="nextPage">Siguiente</button>
       </div>
     `);
   }
